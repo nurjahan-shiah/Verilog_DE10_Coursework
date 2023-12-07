@@ -1,4 +1,4 @@
-module seven segment decoder (a,b,c,d,sw0,sw1,sw2,sw3,sw4,sw5,sw6);
+module seven_segment_decoder (a,b,c,d,sw0,sw1,sw2,sw3,sw4,sw5,sw6);
 input a,b,c,d;
 output sw0, sw1, sw2, sw3, sw4, sw5, sw6;
 assign sw0= ~a & ~b & ~c & d | ~a & b & ~c & ~d | a & ~b & c & d | a & b & ~c & d;
