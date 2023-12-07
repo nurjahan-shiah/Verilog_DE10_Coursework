@@ -28,7 +28,7 @@ module four_bit_adder(s, a0, a1, r, cout);
 
 endmodule
 
-  module lab2(
+  module seven_segment_decoder (
   input [3:0] a,
   output [6:0] sw
 );
