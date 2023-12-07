@@ -1,4 +1,4 @@
-// Performs addition and substraction 
+// Perform addition and substraction 
 
  module full_adder(cin, A, B, Sum, Cout);
   input A, B, cin;
